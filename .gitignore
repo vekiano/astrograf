@@ -1,0 +1,84 @@
+# Ambiente Virtual
+venv/
+env/
+ENV/
+.venv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# IDE e Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+.atom/
+
+# Arquivos de Sistema
+.DS_Store
+Thumbs.db
+.env
+.env.local
+.env.*.local
+
+# Flask
+instance/
+.webassets-cache
+
+# Arquivo de Dados de Cidades (muito grande, gere localmente se necessário)
+# CidMundo.txt
+
+# Arquivos Temporários
+*.tmp
+*.temp
+*.log
+*.pid
+
+# Cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Arquivos SVG gerados (temporários)
+*.svg
+
+# Node (se usar algum frontend build)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Pasta de Downloads
+downloads/
+
+# Arquivos de Configuração Sensível
+config_secret.py
+secrets.json
