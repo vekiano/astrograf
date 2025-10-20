@@ -1,3 +1,4 @@
 Flask==2.3.0
 kerykeion==4.20.0
-swisseph==2.10.3.2
+swisseph==2.10.3
+gunicorn==21.2.0
